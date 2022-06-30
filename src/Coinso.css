@@ -1,0 +1,19 @@
+.container {
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: .2rem .75rem;
+}
+.container:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(255, 239, 220);
+    transition-duration: .4s;
+}
+.container img {
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 32px;
+}
